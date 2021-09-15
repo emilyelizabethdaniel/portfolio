@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+} 
+
+header {
+    width: 100%;
+    background-color: blue;
+    height: 100px;
+    display: inline;
+    display: flex;
+    justify-content: space-between; 
+    font-size: x-large;
+    padding: 40px; 
+}
+
+body {
+    background-color: whitesmoke;
+}
+header h1 {
+    color: white;
+    display: inline;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    display: inline;
+}
+
+
+.section-parent {
+    display: flex; 
+    justify-content: flex-start;
+    flex-flow: column;
+    width: 30%;
+
+}
+
+.section-child {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10%;
+    color: black;
+}
+
+h2 {  
+    font-size: 50px;
+    text-align: center;  
+    margin-bottom: 0%;
+    
+}
+
+section p {
+    text-align: center;
+}
+/* .aboutme {
+    text-align: left;
+    display: inline;
+    border: 2px solid blue;
+    margin: 10px; 
+} */
+
+
+
+.flex-parent {
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    height: 0%;
+    
+}
+
+.flex-child {
+    margin: 20px;
+
+}
+/* .flex-child.big {
+    
+    
+}
+
+.flex-parent {
+    
+}
+
+.flex-child { 
+    
+
+} */
+
+footer {
+    width: 100%;
+    background-color: whitesmoke;
+    
+    height: 130px;
+
+}
