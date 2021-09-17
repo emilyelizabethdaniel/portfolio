@@ -142,6 +142,17 @@ form {
     color: var(--colortheme1);
 }
 
+form h2 {
+    margin-top: 20px;
+    font: bold;
+}
+
+form p {
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+}
+
 form div {
     padding: 5px;
 }
@@ -157,6 +168,7 @@ button {
     color: white;
     border-radius: 4px;
     opacity: 50%;
+    margin-top: 5px;
 }
 
 button:hover {
